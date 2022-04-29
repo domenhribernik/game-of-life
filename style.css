@@ -1,0 +1,40 @@
+body {
+  margin: 10;
+  padding: 0;
+}
+
+.title {
+  font-size: 3rem;
+  display: inline-block;
+  color: lightseagreen;
+}
+
+.author {
+  display: inline-block;
+  font-size: 2rem;
+  color: lightskyblue;
+}
+
+#game {
+  display: inline-grid;
+  border: 1px solid black;
+  grid-template-columns: repeat(70, 25px);
+  margin-top: 15px;
+}
+
+.title, #game {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cell {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border: 1px solid black;
+}
+
+.life {
+  background: blue;
+}
