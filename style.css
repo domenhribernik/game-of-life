@@ -1,23 +1,38 @@
 body {
   margin: 10;
   padding: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: black;
 }
 
 .title {
+  margin-top: 10px;
   font-size: 3rem;
   display: inline-block;
-  color: lightseagreen;
+  color: rgb(150, 233, 27);
 }
 
 .author {
   display: inline-block;
-  font-size: 2rem;
-  color: lightskyblue;
+  font-size: 1.4rem;
+  color: rgb(86, 131, 47);
+}
+
+#tutorial {
+  color: gray;
+  font-family: 'Courier New', Courier, monospace;
+  position: fixed;
+  margin-left: 100px;
+  margin-top: 30px;
+  z-index: 2;
+  font-size: 1.8rem;
+  user-select: none;
+  pointer-events: none;
 }
 
 #game {
   display: inline-grid;
-  border: 1px solid black;
+  border: 1px solid white;
   grid-template-columns: repeat(70, 25px);
   margin-top: 15px;
 }
@@ -36,5 +51,5 @@ body {
 }
 
 .life {
-  background: blue;
+  background: lime;
 }
