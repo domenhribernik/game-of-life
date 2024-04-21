@@ -23,11 +23,16 @@ body {
   font-family: 'Courier New', Courier, monospace;
   position: fixed;
   margin-left: 100px;
-  margin-top: 30px;
+  margin-top: 20px;
   z-index: 2;
   font-size: 1.8rem;
   user-select: none;
   pointer-events: none;
+}
+
+#tutorial p {
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 #game {
@@ -51,5 +56,5 @@ body {
 }
 
 .life {
-  background: lime;
+  background: rgb(140, 233, 27);
 }
